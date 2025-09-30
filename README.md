@@ -19,10 +19,4 @@ It walks through data loading, preprocessing, feature engineering, training base
 
 ---
 
-## Quick start
 
-### Option A — Run on Google Colab (no install)
-1. Click the **Open in Colab** badge above.  
-2. (Optional) **Runtime → Change runtime type → GPU/None** (CPU is fine for this notebook).  
-3. Run the cells from top to bottom.  
-4. To save edits back to GitHub: **File → Save a copy in GitHub…** and p
