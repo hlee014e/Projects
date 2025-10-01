@@ -2,6 +2,8 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hlee014e/Projects/blob/main/Credit_risk.ipynb)
 
+
+
 This project explores **credit risk modeling** with a reproducible Jupyter/Colab notebook.  
 It walks through data loading, preprocessing, feature engineering, training baseline and tree-based models, and evaluating performance with industry-standard metrics.
 
