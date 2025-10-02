@@ -15,8 +15,7 @@ The dataset contains Weight of Evidence (WOE)-transformed features for credit ri
 - **Target:** `target_bad` (1 = default, 0 = non-default)  
 - **Features:** WOE-transformed versions of key credit attributes (e.g., `int_rate`, `dti`, `annual_inc`, revolving utilization, balances, account counts, etc.)
 
-> If you open this notebook in Colab, it will automatically download the CSV from GitHub.  
-> If you run locally, ensure that the file is present in the same folder as the notebook, or update the file path.
+
 
 ---
 
