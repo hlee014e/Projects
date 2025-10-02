@@ -11,7 +11,7 @@ It includes data loading, preprocessing, class-imbalance handling, model trainin
 
 The dataset contains Weight of Evidence (WOE)-transformed features for credit risk modeling.
 
-- **File:** [`features-woe(Credit-Risk).csv`]((https://github.com/hlee014e/Projects/blob/main/Credit-Risk/features-woe(Credit-Risk).csv)) *(stored in the repo root)*  
+- **File:** [`features-woe(Credit-Risk).csv`](https://github.com/hlee014e/Projects/blob/main/Credit-Risk/features-woe(Credit-Risk).csv) *(stored in the repo root)*  
 - **Target:** `target_bad` (1 = default, 0 = non-default)  
 - **Features:** WOE-transformed versions of key credit attributes (e.g., `int_rate`, `dti`, `annual_inc`, revolving utilization, balances, account counts, etc.)
 
