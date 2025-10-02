@@ -24,5 +24,5 @@ The dataset contains Weight of Evidence (WOE)-transformed features for credit ri
 - **Notebook:** [`Credit-Risk/Credit_risk.ipynb`](https://github.com/hlee014e/Projects/blob/main/Credit-Risk/Credit_risk.ipynb)
 - **Goals:** Estimate borrower probability of default (PD)  
 - **Methods:** Logistic Regression (baseline), XGBoost with imbalance handling, SHAP interpretability  
-- **Metrics:** ROC-AUC, PR-AUC, KS statistic, confusion matrix, threshold analysis, calibration metrics  
+- **Metrics:** ROC-AUC, PR-AUC, KS statistic, threshold analysis, calibration metrics  
 - **Artifacts:** Feature importance, SHAP global summary, SHAP local (row-level) explanations
