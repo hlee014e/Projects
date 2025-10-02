@@ -9,23 +9,21 @@ It includes data loading, preprocessing, class-imbalance handling, model trainin
 
 ## Data
 
-- **File:** `features-woe(Credit-Risk).csv` *(stored in the repo root)*  
+The dataset contains Weight of Evidence (WOE)-transformed features for credit risk modeling.
+
+- **File:** [`features-woe(Credit-Risk).csv`](https://github.com/hlee014e/Projects/blob/main/features-woe(Credit-Risk).csv) *(stored in the repo root)*  
 - **Target:** `target_bad` (1 = default, 0 = non-default)  
-- Features include WOE-transformed variables (e.g., `int_rate`, `dti`, `annual_inc`, credit utilization and balances, account counts, etc.)
+- **Features:** WOE-transformed versions of key credit attributes (e.g., `int_rate`, `dti`, `annual_inc`, revolving utilization, balances, account counts, etc.)
 
-> If you open in Colab, the notebook will download this CSV directly from GitHub.  
-> If you run locally, ensure the CSV is present in the same folder as the notebook or update the path.
+> If you open this notebook in Colab, it will automatically download the CSV from GitHub.  
+> If you run locally, ensure that the file is present in the same folder as the notebook, or update the file path.
 
-**Quick load snippet (works in Colab & locally):**
-```python
-import pandas as pd, io, requests, os
+---
 
-CSV_FILE = "features-woe(Credit-Risk).csv"
-if os.path.exists(CSV_FILE):
-    df = pd.read_csv(CSV_FILE)
-else:
-    # fallback: load from GitHub raw (replace with your exact repo path if needed)
-    url = "https://raw.githubusercontent.com/hlee014e/Projects/main/features-woe(Credit-Risk).csv"
-    df = pd.read_csv(url)
+## What’s inside
 
-df.head()
+- **Notebook:** `Credit-Risk/Credit_risk.ipynb`
+- **Goals:** Estimate borrower probability of default (PD)  
+- **Methods:** Logistic Regression (baseline), XGBoost with imbalance handling, SHAP interpretability  
+- **Metrics:** ROC-AUC, PR-AUC, KS statistic, confusion matrix, threshold analysis, calibration metrics  
+- **Artifacts:** Feature importance, SHAP global summary, SHAP local (row-level) explanations
