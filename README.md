@@ -27,4 +27,4 @@ The dataset contains Weight of Evidence (WOE)-transformed features for credit ri
 - **Metrics:** ROC-AUC, PR-AUC, KS statistic, threshold analysis, calibration metrics  
 - **Artifacts:** Feature importance, SHAP global summary, SHAP local (row-level) explanations
 
-# 2. Not yet determined 
+# 2.  Not yet determined 
