@@ -26,3 +26,5 @@ The dataset contains Weight of Evidence (WOE)-transformed features for credit ri
 - **Methods:** Logistic Regression (baseline), XGBoost with imbalance handling, SHAP interpretability  
 - **Metrics:** ROC-AUC, PR-AUC, KS statistic, threshold analysis, calibration metrics  
 - **Artifacts:** Feature importance, SHAP global summary, SHAP local (row-level) explanations
+
+# 2. Not yet determined 
